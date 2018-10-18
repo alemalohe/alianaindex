@@ -1,0 +1,302 @@
+.navbar{
+  margin-bottom:0;
+  border:none;
+  background-color: #252728;
+}
+
+.navbar-brand .glyphicon{
+  margin-right:6px;
+}
+
+.header{
+  background-color: #252728;
+}
+.hero{
+  background:url(../../assets/img/city_bg.jpg) no-repeat center;
+  background-size:cover;
+  border:none;
+  text-align: center;
+  padding-top: 550px;
+  padding-bottom: 600px;
+
+}
+.buttonv{
+  background-color: #4dd2ff;
+  padding: 9px;
+  border-color: #34cbcb;
+  border-style: solid;
+  margin: 2px;
+  color: #252728;
+  border-radius: 50px;
+  text-align: center;
+  width: 250px;
+  margin-left: 75px;
+}
+.buttonv:hover{
+  color: white;
+  background-color: #34cbcb;
+}
+.button{
+  float: right;
+  background-color: #4dd2ff;
+  padding: 4px;
+  border-color: #4dd2ff;
+  border-style: solid;
+  margin:9px;
+  border-radius: 50px;
+  color: #252728;
+  text-align: center;
+  width: 100px;
+  height: 37px;
+  text-decoration: none;
+  border-width: 1px;
+  transition: 1s;
+}
+.button:hover{
+  color: #4dd2ff;
+  background-color: #4dd2;
+}
+.widl{
+  padding-left: 70px;
+}
+h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+#home h1{
+  font-size: 90px;
+}
+.colorful{
+  color: #34cbcb;
+}
+.img-res{
+  max-width: 70%;
+  height: auto;
+  margin-right: 10px;
+}
+.get{
+  width: 250px;
+  border-style: solid;
+  padding: 10px;
+  border-width: 1.5px;
+  margin-top: 25px;
+  transition: 1s;
+}
+@media (min-width:992px) {
+  .hero .get-it{
+    text-align:right;
+    margin-top:80px;
+    padding-right:30px;
+  }
+}
+
+@media (max-width:992px) {
+  .hero .get-it{
+    text-align:center;
+  }
+}
+
+@media (max-width:992px) {
+  .hero .phone-preview{
+    text-align:center;
+  }
+}
+
+.hero .get-it h1, .hero .get-it p{
+  color:#fff;
+  text-shadow:2px 2px 3px rgba(0,0,0,0.3);
+  margin-bottom:40px;
+}
+
+.hero .get-it .btn{
+  margin-left:10px;
+  margin-bottom:10px;
+  text-shadow:none;
+}
+
+div.iphone-mockup{
+  position:relative;
+  max-width:250px;
+  margin:20px;
+  display:inline-block;
+  padding-top: 200px;
+}
+
+.iphone-mockup img.device{
+  width:100%;
+  height:auto;
+}
+
+.iphone-mockup button{
+  float: right;
+  height: 70px;
+  background-color: rgb(52,203,203, .7);
+  border-radius: 50px;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  text-align: center;
+  width: 250px;
+  text-decoration: none;
+  border-width: 1px;
+  transition: 1s;
+}
+
+.iphone-mockup button:hover{
+  background-color: #34cbcb;
+  color: #252728;
+  border-color: #34cbcb;
+}
+
+.iphone-mockup .screen{
+  position:absolute;
+  width:88%;
+  height:77%;
+  top:12%;
+  border-radius:2px;
+  left:6%;
+  border:1px solid #444;
+  background-color:#aaa;
+  overflow:hidden;
+  background:url(../../assets/img/screen-content-iphone-6.jpg);
+  background-size:cover;
+  background-position:center;
+}
+
+.iphone-mockup .screen:before{
+  content:'';
+  background-color:#fff;
+  position:absolute;
+  width:70%;
+  height:140%;
+  top:-12%;
+  right:-60%;
+  transform:rotate(-19deg);
+  opacity:0.2;
+}
+
+.icon-feature{
+  text-align:center;
+}
+
+.icon-feature .glyphicon{
+  font-size:60px;
+}
+
+section.features{
+  background-color: #252728;
+  padding:20px 0;
+  color: white;
+  padding-right: 90px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.features h2{
+  color:#fff;
+}
+.features p{
+  text-align: left;
+}
+
+.features .icon-features{
+  margin-top:15px;
+}
+
+.testimonials blockquote{
+  text-align: center;
+}
+
+section.testimonials{
+  margin:50px 0;
+  margin-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.site-footer{
+  padding:20px 0;
+  text-align:center;
+  background-color: #252728;
+  border-color: white;
+  color: white;
+}
+
+@media (min-width:768px) {
+  .site-footer h5{
+    text-align:left;
+  }
+}
+
+
+
+.site-footer .social-icons a:hover{
+  opacity: 0.8;
+  background-color: #34cbcb;
+}
+
+.site-footer .social-icons a{
+  display:inline-block;
+  width:32px;
+  border:none;
+  font-size:20px;
+  border-radius:50%;
+  margin:4px;
+  color:#fff;
+  text-align:center;
+  background-color: #252728;
+  height:32px;
+  transition: 1s;
+  line-height:32px;
+}
+
+@media (min-width:768px) {
+  .site-footer .social-icons{
+    text-align:right;
+  }
+}
+@media (max-width: 970px){
+    #butto{
+      display: none;
+    }
+    #mainer{
+      padding: 100px;
+    }
+
+}
+
+
+.iconsa{
+  font-size: 60px;
+  padding-bottom: 10px;
+  color: #ff9900;
+}
+.rotate-center {
+  -webkit-animation: rotate-center 0.6s ease-in-out both;
+          animation: rotate-center 0.6s ease-in-out both;
+}
+.lorde:hover {
+  -webkit-animation: rotate-center 0.6s ease-in-out both;
+          animation: rotate-center 0.6s ease-in-out both;
+}
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
